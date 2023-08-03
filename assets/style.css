@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+    height: 51px;
+    top: 20px;
+}
+
+img {
+    width: 48px;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: -100px;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 380px;
+}
+
+input {
+    height: 32px;
+    width: 274px;
+    border-radius: 6px;
+    border: 1px solid #cdcad3;
+}
+
+button {
+    position: relative;
+    height: 32px;
+    width: 274px;
+    background-color: #187733;
+    color: white;
+    border-radius: 6px;
+    top: 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 98px;
+    width: 1912px;
+    font-size: 11px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    width: 980px;
+    gap: 13px;
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    padding: 25px;
+}
+
+label[for="password"] {
+    position: relative;
+    display: flex;
+    gap: 100px;
+    top: 8px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    font-size: 12px;
+    
+}
+
+form {
+
+    border-radius: 6px;
+    border: 1px solid #cdcad3;
+    width: 308px;
+    height: 250px;
+    padding: 15px;
+
+}
+
+p{  position: relative;
+    border-radius: 6px;
+    border: 1px solid #cdcad3;
+    height: 55px;
+    width: 308px;
+    font-size: 12px;
+    text-align: center;
+    top: 20px;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #0a68d7;
+}
+
+.li1{
+    color: black;
+}
+.li1:hover{
+    color: #0a68d7;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button:hover{
+    background-color: #145f29;
+    cursor: pointer;
+}
